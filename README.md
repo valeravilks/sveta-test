@@ -4,7 +4,7 @@
 
 This site was designed for UI / UX designer Svetlana, who aims to demonstrate her work.
 
-The main feature of the site is its minimalistic design and great interactivity. During the development, it was taken into account to make the product unique in order to emphasize the lack of stereotyping, as well as to show modern approaches to site building.
+The main feature of the site is its minimalistic design and great interactivity. During the developme5nt, it was taken into account to make the product unique in order to emphasize the lack of stereotyping, as well as to show modern approaches to site building.
 
 In the work on the site used modern tools and technologies, such as:
 * Html
@@ -18,6 +18,7 @@ In the work on the site used modern tools and technologies, such as:
 * PixiJs
 * Webpack
 * PhpStorm
+
 
 ![](for-readme/2.gif)
 
