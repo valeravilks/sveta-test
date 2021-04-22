@@ -1,0 +1,10 @@
+#AddDefaultCharset utf-8
+AddCharset utf-8 .html
+#Content-Type: text/html; charset=UTF-8
+#AddType 'text/html; charset=UTF-8' html
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^.]+)$ $1.html [NC,L]
+RedirectMatch ^/$ /ru
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
