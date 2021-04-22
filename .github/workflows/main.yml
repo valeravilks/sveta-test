@@ -28,4 +28,4 @@ jobs:
     - run: npm install
     - run: cp -r dist/. github-page
     - run: git subtree push --prefix github-page origin gh-pages
-    - run: rm github-page/*
+    # - run: rm github-page/*
