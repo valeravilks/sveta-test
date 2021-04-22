@@ -27,6 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: mkdir result
-    - run: cp -r /dist/. /result
+    - run: cp -r dist/. result
     - run: git subtree push --prefix result origin gh-pages
-    - run: rm -r /result
+    - run: rm -r result
